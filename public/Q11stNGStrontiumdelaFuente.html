@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Daily Consumption of Your Favorite Snack Calculator</title>
+</head>
+    <script>
+        alert("Welcome to the Daily Consumption of Your Favorite Snack Calculator!");
+        var age = prompt("Please enter your age: ");
+        var maxAge = prompt("Please enter the age when your lifetime will end: ");
+        var snack = prompt("Please enter your favorite snack: ");
+        var numPerDay = prompt("Please enter the number of times you eat your favorite snack per day: ");
+        var totalRequired = (numPerDay * 365) * (maxAge - age);
+        document.write("You will need " + totalRequired + " pieces/packs of " + snack + " to last you until the ripe old age of " + maxAge + ".");
+    </script>
+</html>

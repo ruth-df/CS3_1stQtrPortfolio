@@ -20,6 +20,7 @@ p {
     color: #41444B;
     background-color:#CABFAB;
     padding:10px;
+    text-align: justify;
 }
 table {
     width: 80%;
